@@ -1,5 +1,11 @@
-# npm install
+Install node modules
 
-# npm install -g gatsby-cli
+`npm install`
 
-# gatsby develop
+Install Gatsby CLI
+
+`npm install -g gatsby-cli`
+
+Run the app
+
+`gatsby develop`

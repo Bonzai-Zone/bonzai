@@ -1,17 +1,20 @@
 import React from "react"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import '../styles/styles.css'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Understand Money.</h1>
-    <p>Meggings palo santo ennui street art.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="bgimg">
+      <h1>UNDERSTAND MONEY</h1>
+    </div>
+    <div>
+      <p>Learning how to get the most out of your money with Bonzai Club is fun and addictive. 
+       Earn rewards for completing levels, receive personalised educational content, and get money-savvy with just 10 minutes a day. Anytime, anywhere!
+      </p>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;

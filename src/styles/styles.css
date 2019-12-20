@@ -1,0 +1,21 @@
+
+.bgimg {
+    background-image: url('../images/smoking_head.jpg');
+    max-width: 100%;
+    height: 350px;
+    margin-bottom: 1.45rem;
+    text-align: center;
+    padding: 6.25rem;
+}
+
+.bgimg h1 {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 5.5rem;
+    color: #ff0;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.1rem;
+    line-height: 3rem;
+}
