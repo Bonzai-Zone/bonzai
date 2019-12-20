@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+export default () => (
   <Layout>
     <SEO title="Home" />
     <h1>Understand Money.</h1>
@@ -13,5 +13,3 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
-
-export default IndexPage
